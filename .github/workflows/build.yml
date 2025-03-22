@@ -168,5 +168,5 @@ jobs:
         uses: actions/upload-artifact@v4.6.2
         with:
           name: ${{ needs.env-setup.outputs.archive_name }}
-          path: build/artifacts/${{ env.artifact_name }}.${{ needs.env-setup.outputs.fallback_binary }}
+          path: build/artifacts
 
