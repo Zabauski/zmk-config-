@@ -14,12 +14,12 @@
 ---
 include:
 
-  - board: nrfmicro_13
+  - board: nice!nano
     shield: tbkmini_left
-  - board: nrfmicro_13
+  - board: nice!nano
     shield: tbkmini_right
-  - board: nrfmicro_13
+  - board: nice!nano
     shield: [corne_left, corne_right]
     name: ["Corne"]
-  - board: nrfmicro_13
+  - board: nice!nano
     shield: settings_reset
